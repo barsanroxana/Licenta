@@ -1,0 +1,69 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.body_background {
+    background-image: url('../Image/Abstract-Background.jpg');
+    background-size: auto 130%;
+    background-attachment: fixed;  
+}
+
+.body_index {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 128px;
+    margin-left: 125px;
+    height: 950px;
+    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#nav_color {
+    background-color: #090911; 
+}
+
+#nav_caracter_color {
+    color: #ffcce0;
+}
+
+.div1_home {
+    bottom: 10px;
+    height: 350px;
+    background: rgba(4, 81, 4, 0.60);
+}
+
+.div2_home {
+    bottom: 10px;
+    height: 350px;
+    background: rgba(5, 123, 200, 0.39);
+}
+
+.div3_home {
+    bottom: 10px;
+    height: 350px;
+    background: rgba(241, 6, 6, 0.39);
+}
+#carousel_dimension {
+    width:1300px;
+    height:420px;
+}
