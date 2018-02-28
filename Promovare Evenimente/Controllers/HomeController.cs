@@ -26,5 +26,16 @@ namespace Promovare_Evenimente.Controllers
 
             return View();
         }
+
+        public ActionResult Album()
+        {
+            ViewBag.Message = "Your album.";
+
+            return View();
+        }
+
+
+
+
     }
 }

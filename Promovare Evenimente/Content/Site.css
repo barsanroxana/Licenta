@@ -22,48 +22,144 @@ select,
 textarea {
     max-width: 280px;
 }
-.body_background {
-    background-image: url('../Image/Abstract-Background.jpg');
-    background-size: auto 130%;
-    background-attachment: fixed;  
-}
 
-.body_index {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 128px;
-    margin-left: 125px;
-    height: 950px;
-    background: rgba(0, 0, 0, 0.5); 
-    background: rgba(0, 0, 0, 0.8);
-}
-
+/*NAVBAR*/
 #nav_color {
-    background-color: #090911; 
+    background-color: #090911;
 }
 
 #nav_caracter_color {
     color: #ffcce0;
 }
+.dropdown_colors{
+    background-color: rgba(1, 1, 20, 0.99);
+    color:azure;
+}
+
+/*INDEX(home)*/
+.body_background {
+    background-image: url('../Image/Abstract-Background.jpg');
+    background-size: auto 130%;
+    background-attachment: fixed;
+}
+
+.body_index {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 900px;
+    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.8);
+}
 
 .div1_home {
-    bottom: 10px;
+    bottom: 5px;
     height: 350px;
     background: rgba(4, 81, 4, 0.60);
 }
 
 .div2_home {
-    bottom: 10px;
+    bottom: 5px;
     height: 350px;
     background: rgba(5, 123, 200, 0.39);
 }
 
 .div3_home {
-    bottom: 10px;
+    bottom: 5px;
     height: 350px;
     background: rgba(241, 6, 6, 0.39);
 }
-#carousel_dimension {
-    width:1300px;
-    height:420px;
+
+/*ABOUT*/
+.body_about {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 840px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
 }
+
+.div1_about {
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 20px;
+    bottom: 10px;
+    height: 350px;
+    background: rgba(162, 48, 215, 0.60);
+}
+
+.div2_about {
+    margin-left: 10px;
+    margin-right: 25px;
+    margin-top: 20px;
+    bottom: 10px;
+    height: 350px;
+    background: rgba(215, 204, 9, 0.42);
+}
+
+.div3_about {
+    margin-top: 50px;
+    margin-left: 130px;
+    bottom: 10px;
+    height: 350px;
+    background: rgba(44, 51, 196, 0.39);
+}
+
+/*CONTACT*/
+.body_contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 560px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*ALBUM*/
+.body_album {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*REGISTER*/
+.body_register{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+.text_registre {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+/*LOG IN*/
+.body_login{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*MANAGE(PROFIL)*/
+.body_manage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*CHANGE PASSWORD*/
+.body_changepass {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+

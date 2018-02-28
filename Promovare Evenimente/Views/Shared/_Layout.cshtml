@@ -17,30 +17,46 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
                     @Html.ActionLink("♫ Good Vibe", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 </div>
-                <div class="navbar-collapse collapse" id="nav_caracter_color"">
+                <div class="navbar-collapse collapse" id="nav_caracter_color">
                     <ul class="nav navbar-nav" >
                         <li >@Html.ActionLink("Home", "Index", "Home")</li>
                         <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown">
+                                Event<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown_colors" >
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            </ul>
+                        </li>
+                        <li>@Html.ActionLink("Album", "Album", "Home")</li>
                         <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     </ul>
-                    @Html.Partial("_LoginPartial")
-                </div>
+                        @Html.Partial("_LoginPartial")
+                        <form class="navbar-form" action="/action_page.php">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </form>
+                 </div>
             </div>
         </div>
-    
-    <div class="body_index">
         <div class="container body-content">
            
             @RenderBody()
-            <hr />
+            
             <footer>
                 <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
             </footer>
         </div>
-    </div>
+    
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")

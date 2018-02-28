@@ -7,7 +7,7 @@ namespace Promovare_Evenimente.Models
     {
         [Required]
         [Display(Name = "Email")]
-        public string Email { get; set; }
+        public string  Email { get; set; }
     }
 
     public class ExternalLoginListViewModel
@@ -43,15 +43,14 @@ namespace Promovare_Evenimente.Models
     {
         [Required]
         [Display(Name = "Email")]
-        public string Email { get; set; }
+        public string Email{ get; set; }
     }
 
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Email")]
-        [EmailAddress]
-        public string Email { get; set; }
+        [Display(Name = "UserName")]
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -64,6 +63,18 @@ namespace Promovare_Evenimente.Models
 
     public class RegisterViewModel
     {
+        [Required]
+        [Display(Name = "UserName")]
+        public string UserName { get; set; }
+
+        [Required]
+        [Display(Name = "Fist Name")]
+        public string FirstName { get; set; }
+
+        [Required]
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]
